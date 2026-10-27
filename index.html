@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annual Conference 2026 | Korea Serious Game Institute</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="images/gmu-logo.jpg" alt="George Mason University" style="height: 36px; vertical-align: middle; margin-right: 8px;">
+        <span data-key="institute">KOREA SERIOUS GAME INSTITUTE</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about" data-key="navAbout">About</a></li>
+        <li><a href="#speakers" data-key="navSpeakers">Speakers</a></li>
+        <li><a href="#schedule" data-key="navSchedule">Schedule</a></li>
+        <li><a href="#contact" data-key="navContact">Contact Us</a></li>
+        <li><button class="lang-btn" id="langToggle">한국어</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero / Landing -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1 data-key="title">Annual Conference 2026</h1>
+        <div class="theme" data-key="theme">From Players to Creators</div>
+        <div class="subtitle" data-key="subtitle">User-Created Games in the Age of AI</div>
+        <p data-key="heroDesc"></p>
+        <div class="info-box">
+          <div class="info-row">
+            <span class="info-icon">📅</span>
+            <span data-key="date">Saturday, November 21, 2026</span>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">🕐</span>
+            <span data-key="time">10:30 AM – 3:10 PM</span>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">🍴</span>
+            <span data-key="luncheon">Luncheon 12:30 PM – 1:30 PM</span>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">📍</span>
+            <a href="https://naver.me/F88FuHdM" target="_blank" rel="noopener" data-key="location">George Mason University Korea</a>
+          </div>
+          <div class="info-row">
+            <span class="info-icon">✉️</span>
+            <a href="mailto:ksgi@gmu.edu" data-key="inquiries">Inquiries: ksgi@gmu.edu</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="images/controller.png" alt="Gaming Controller" class="controller-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <h2 data-key="aboutTitle">About the Conference</h2>
+    <div id="aboutContent" class="about-content"></div>
+  </section>
+
+  <!-- Speakers -->
+  <section id="speakers">
+    <h2 data-key="speakersTitle">Meet Our Speakers</h2>
+    <div id="keynoteSection">
+      <h3 id="keynoteHeading" data-key="keynoteTitle" style="text-align:center; color: var(--cyan); margin: 2rem 0 1rem; font-family: 'Orbitron', sans-serif;">Keynote Speakers</h3>
+      <div class="speakers-grid" id="keynoteGrid"></div>
+    </div>
+    <div id="featuredSection" style="margin-top: 3rem;">
+      <h3 id="featuredHeading" data-key="featuredTitle" style="text-align:center; color: var(--cyan); margin: 2rem 0 1rem; font-family: 'Orbitron', sans-serif;">Featured Speakers</h3>
+      <div class="speakers-grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section id="schedule">
+    <h2 data-key="scheduleTitle">Schedule</h2>
+    <div class="schedule-list" id="scheduleList">
+      <!-- Filled by JS -->
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2 data-key="contactTitle">Contact Us</h2>
+    <p style="text-align:center; color: var(--text-muted); margin-bottom: 1.5rem; max-width: 700px; margin-left: auto; margin-right: auto;" data-key="contactText"></p>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3 data-key="emailLabel">Email</h3>
+        <a href="mailto:ksgi@gmu.edu">ksgi@gmu.edu</a>
+      </div>
+      <div class="contact-card">
+        <h3 data-key="locationLabel">Venue</h3>
+        <p data-key="address" style="white-space: pre-line;"></p>
+        <p style="margin-top: 0.8rem; color: var(--cyan);" data-key="parkingNote">Parking: Validation available for those driving.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners" style="padding: 4rem 1.5rem; text-align: center;">
+    <h2 style="color: var(--cyan); font-family: 'Orbitron', sans-serif; margin-bottom: 2rem;" data-key="partnersTitle">Related Links</h2>
+    <div class="partners-grid">
+      <a href="https://www.gmu.edu" target="_blank" rel="noopener" class="partner-link">
+        <img src="images/gmu-logo.jpg" alt="George Mason University" style="height: 50px;">
+        <span>George Mason University</span>
+      </a>
+      <a href="https://masonkorea.gmu.edu" target="_blank" rel="noopener" class="partner-link">
+        <span style="font-size: 1.2rem; color: var(--cyan);">Mason Korea</span>
+        <span>George Mason University Korea</span>
+      </a>
+      <a href="https://game.gmu.edu" target="_blank" rel="noopener" class="partner-link">
+        <span style="font-size: 1.2rem; color: var(--cyan);">GAME</span>
+        <span>Computer Game Design Program</span>
+      </a>
+      <a href="https://vsgi.gmu.edu" target="_blank" rel="noopener" class="partner-link">
+        <img src="images/vsgi-logo.jpg" alt="VSGI" style="height: 50px;">
+        <span>Virginia Serious Game Institute</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-tagline" data-key="footerTagline">AI + Indie Games + Web3 + Creator Ownership</div>
+    <p data-key="institute">Korea Serious Game Institute</p>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
