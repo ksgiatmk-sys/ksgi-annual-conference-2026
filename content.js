@@ -61,7 +61,7 @@ const content = {
       },
       {
         type: "leadership",
-        name: "Yong Eun Kim",
+        name: "Prof. Yong Eun Kim",
         role: "Assistant Director, Korea Serious Game Institute (KSGI)<br>Instructor, Computer Game Design<br>George Mason University Korea",
         photo: "images/team/kim.jpg",
         bio: "Yong Eun Kim serves as Assistant Director of the Korea Serious Game Institute (KSGI) and Instructor in the Computer Game Design program at George Mason University Korea. He specializes in the convergence of music, sound design, and interactive technologies. An accomplished audio director, composer, and conductor, his work includes the award-winning MMORPG Lost Ark and series such as Queen of Tears and Crash Landing on You. He holds a Master of Music in Music Technology from the University of Toronto and a Bachelor of Music in Film Scoring from Berklee College of Music."
@@ -70,28 +70,28 @@ const content = {
     affiliatedFaculty: [
       {
         type: "faculty",
-        name: "James Broderick",
+        name: "Dr. James Broderick",
         role: "Assistant Professor, Computer Game Design<br>George Mason University Korea",
         photo: "images/team/broderick.jpg",
         bio: "James Broderick is an Assistant Professor of Computer Game Design at George Mason University Korea. His research focuses on Extended Reality, Serious Games, Game Design, Spatial Audio, and Human-Computer Interaction. He completed his BSc and PhD at the National University of Ireland Galway."
       },
       {
         type: "faculty",
-        name: "John David McGrew",
+        name: "Prof. John David McGrew",
         role: "Associate Professor, Computer Game Design<br>George Mason University Korea",
         photo: "images/team/mcgrew.jpg",
         bio: "John David McGrew is an Associate Professor who teaches 3D modeling, animation, and game art in the Computer Game Design program. He has professional experience as a character animator, 3D generalist, and motion designer. He holds an MFA in Animation from Savannah College of Art and Design."
       },
       {
         type: "faculty",
-        name: "John P. Doran",
+        name: "Prof. John P. Doran",
         role: "Senior Instructor, Computer Game Design<br>George Mason University Korea",
         photo: "images/team/doran.jpg",
         bio: "John P. Doran is a Senior Instructor and seasoned Technical Game Designer, Software Engineer, and Author. He has over a decade of industry experience, including work at LucasArts, and has authored more than 10 books on game development. His research includes XR in education and game-based digital therapeutics."
       },
       {
         type: "faculty",
-        name: "Joo-mee Paik",
+        name: "Dr. Joo-mee Paik",
         role: "Assistant Professor, Computer Game Design<br>George Mason University Korea",
         photo: "images/team/paik.jpg",
         bio: "Joo-mee Paik, Ph.D., is an Assistant Professor of Computer Game Design. An artist and educator with over twenty years of experience, she explores the intersections of art, philosophy, and technology, including media art, digital art, interactive art, and VR. She holds a PhD in Art Technology from Sogang University."
@@ -114,7 +114,7 @@ const content = {
       },
       {
         type: "featured",
-        name: "Hakyong Tae (태학용)",
+        name: "Mr. Hakyong Tae (태학용)",
         role: "Vice President, Business Development<br>Verse8, South Korea",
         photo: "images/speakers/tae.jpg",
         bio: "Hakyong Tae is Vice President of Business Development at Verse8, an AI-powered game creation and publishing platform designed to enable anyone to develop games and share them instantly through a simple link. At Verse8, he leads business development initiatives encompassing game developer and creator recruitment, platform partnerships, university and educational collaborations, and government-supported programs. He also works directly with AI-powered game development and platform integration, connecting emerging technologies with practical opportunities for creators and independent game studios. In addition to his industry role, Tae teaches XR Project Management at Chung-Ang University and has delivered guest lectures and organized game jams at universities. His work focuses on democratizing game development, supporting creator-driven ecosystems, and expanding opportunities for individuals and independent developers to create, distribute, and monetize interactive experiences."
@@ -214,37 +214,37 @@ const content = {
       },
       {
         type: "leadership",
-        name: "김용은",
+        name: "김용은 교수",
         role: "한국기능성게임연구소(KSGI) 부소장<br>컴퓨터 게임 디자인 강사<br>조지메이슨대학교 한국캠퍼스",
         photo: "images/team/kim.jpg",
-        bio: "김용은은 한국기능성게임연구소(KSGI) 부소장이자 조지메이슨대학교 한국캠퍼스 컴퓨터 게임 디자인 프로그램 강사입니다. 음악, 사운드 디자인, 인터랙티브 기술의 융합을 전문으로 합니다. Lost Ark 등 수상 경력의 작품과 Queen of Tears, Crash Landing on You 등의 시리즈에 참여한 오디오 디렉터, 작곡가, 지휘자입니다."
+        bio: "김용은 교수는 한국기능성게임연구소(KSGI) 부소장이자 조지메이슨대학교 한국캠퍼스 컴퓨터 게임 디자인 프로그램 강사입니다. 음악, 사운드 디자인, 인터랙티브 기술의 융합을 전문으로 합니다. Lost Ark 등 수상 경력의 작품과 Queen of Tears, Crash Landing on You 등의 시리즈에 참여한 오디오 디렉터, 작곡가, 지휘자입니다."
       }
     ],
     affiliatedFaculty: [
       {
         type: "faculty",
-        name: "제임스 브로데릭",
+        name: "제임스 브로데릭 박사",
         role: "컴퓨터 게임 디자인 조교수<br>조지메이슨대학교 한국캠퍼스",
         photo: "images/team/broderick.jpg",
-        bio: "제임스 브로데릭은 조지메이슨대학교 한국캠퍼스 컴퓨터 게임 디자인 조교수입니다. 확장현실, 기능성 게임, 게임 디자인, 공간 오디오, 인간-컴퓨터 상호작용을 연구합니다."
+        bio: "제임스 브로데릭 박사는 조지메이슨대학교 한국캠퍼스 컴퓨터 게임 디자인 조교수입니다. 확장현실, 기능성 게임, 게임 디자인, 공간 오디오, 인간-컴퓨터 상호작용을 연구합니다."
       },
       {
         type: "faculty",
-        name: "존 데이비드 맥그루",
+        name: "존 데이비드 맥그루 교수",
         role: "컴퓨터 게임 디자인 부교수<br>조지메이슨대학교 한국캠퍼스",
         photo: "images/team/mcgrew.jpg",
-        bio: "존 데이비드 맥그루는 컴퓨터 게임 디자인 프로그램에서 3D 모델링, 애니메이션, 게임 아트를 가르치는 부교수입니다. 캐릭터 애니메이터와 3D 제너럴리스트로서의 전문 경험을 가지고 있습니다."
+        bio: "존 데이비드 맥그루 교수는 컴퓨터 게임 디자인 프로그램에서 3D 모델링, 애니메이션, 게임 아트를 가르치는 부교수입니다. 캐릭터 애니메이터와 3D 제너럴리스트로서의 전문 경험을 가지고 있습니다."
       },
       {
         type: "faculty",
-        name: "존 P. 도란",
+        name: "존 P. 도란 교수",
         role: "컴퓨터 게임 디자인 선임 강사<br>조지메이슨대학교 한국캠퍼스",
         photo: "images/team/doran.jpg",
-        bio: "존 P. 도란은 선임 강사이자 경험 많은 테크니컬 게임 디자이너, 소프트웨어 엔지니어, 저자입니다. 10년 이상의 업계 경험을 보유하고 있으며 게임 개발 관련 책을 10권 이상 저술했습니다."
+        bio: "존 P. 도란 교수는 선임 강사이자 경험 많은 테크니컬 게임 디자이너, 소프트웨어 엔지니어, 저자입니다. 10년 이상의 업계 경험을 보유하고 있으며 게임 개발 관련 책을 10권 이상 저술했습니다."
       },
       {
         type: "faculty",
-        name: "백주미",
+        name: "백주미 박사",
         role: "컴퓨터 게임 디자인 조교수<br>조지메이슨대학교 한국캠퍼스",
         photo: "images/team/paik.jpg",
         bio: "백주미 박사는 컴퓨터 게임 디자인 조교수입니다. 20년 이상의 경험을 가진 예술가이자 교육자로, 미디어 아트, 디지털 아트, 인터랙티브 아트, VR을 탐구합니다."
