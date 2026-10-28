@@ -129,7 +129,7 @@ const content = {
       {
         type: "featured",
         name: "Prof. Sang Nam (남상엄)",
-        role: "Professor and Director, Computer Game Design Program<br>Co-Director, Virginia Serious Game Institute (VSGI)<br>Director, Korea Serious Game Institute (KSGI)<br>George Mason University, USA / South Korea",
+        role: "Professor and Director, Computer Game Design Program<br>Co-Director, Virginia Serious Game Institute (VSGI)<br>Director, Korea Serious Game Institute (KSGI)<br>George Mason University",
         photo: "images/speakers/nam.jpg",
         bio: "Professor Sang Nam is Professor and Director of the Computer Game Design Program at George Mason University, Co-Director of the Virginia Serious Game Institute (VSGI), and Director of the Korea Serious Game Institute (KSGI) at George Mason University Korea. An interdisciplinary educator, researcher, and creative practitioner, Prof. Nam works at the intersection of game design, artificial intelligence, emerging technologies, and innovative pedagogy. His academic and professional initiatives emphasize the application of interactive technologies to education, digital cultural heritage preservation, and social innovation. He leads international projects supported by the U.S. Department of State and U.S. embassies, advancing collaborations involving AI, serious games, and digital heritage across Asia and Africa. As Director of KSGI, Prof. Nam is committed to fostering international collaboration among academia, industry, and creative communities while exploring how AI is democratizing game development and expanding opportunities for the next generation of game creators."
       }
