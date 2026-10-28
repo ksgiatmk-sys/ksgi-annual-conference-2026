@@ -15,6 +15,7 @@ const content = {
     inquiries: "Inquiries: ksgi@gmu.edu",
     navAbout: "About",
     navSpeakers: "Speakers",
+    navTeam: "Team",
     navSchedule: "Schedule",
     navContact: "Contact Us",
     aboutTitle: "About the Conference",
@@ -44,8 +45,58 @@ const content = {
     parkingNote: "Parking: Validation available for those driving.",
     partnersTitle: "Related Links",
     speakersTitle: "Meet Our Speakers",
+    teamTitle: "Our Team",
+    leadershipTitle: "Leadership",
+    facultyTitle: "Affiliated Faculty",
     keynoteTitle: "Keynote Speakers",
     featuredTitle: "Featured Speakers",
+
+    teamMembers: [
+      {
+        type: "leadership",
+        name: "Prof. Sang Nam",
+        role: "Director, Korea Serious Game Institute (KSGI)<br>Professor & Director, Computer Game Design Program<br>George Mason University",
+        photo: "images/team/nam.jpg",
+        bio: "Professor Sang Nam is the Director of the Korea Serious Game Institute (KSGI) and Director of the Computer Game Design Program at George Mason University. He is also Co-Director of the Virginia Serious Game Institute (VSGI). An interdisciplinary educator and creative practitioner, he works at the intersection of game design, AI, emerging technologies, and innovative pedagogy. He leads international projects supported by the U.S. Department of State and embassies, advancing AI, serious games, and digital heritage collaborations."
+      },
+      {
+        type: "leadership",
+        name: "Yong Eun Kim",
+        role: "Assistant Director, Korea Serious Game Institute (KSGI)<br>Instructor, Computer Game Design<br>George Mason University Korea",
+        photo: "images/team/kim.jpg",
+        bio: "Yong Eun Kim serves as Assistant Director of the Korea Serious Game Institute (KSGI) and Instructor in the Computer Game Design program at George Mason University Korea. He specializes in the convergence of music, sound design, and interactive technologies. An accomplished audio director, composer, and conductor, his work includes the award-winning MMORPG Lost Ark and series such as Queen of Tears and Crash Landing on You. He holds a Master of Music in Music Technology from the University of Toronto and a Bachelor of Music in Film Scoring from Berklee College of Music."
+      }
+    ],
+    affiliatedFaculty: [
+      {
+        type: "faculty",
+        name: "James Broderick",
+        role: "Assistant Professor, Computer Game Design<br>George Mason University Korea",
+        photo: "images/team/broderick.jpg",
+        bio: "James Broderick is an Assistant Professor of Computer Game Design at George Mason University Korea. His research focuses on Extended Reality, Serious Games, Game Design, Spatial Audio, and Human-Computer Interaction. He completed his BSc and PhD at the National University of Ireland Galway."
+      },
+      {
+        type: "faculty",
+        name: "John David McGrew",
+        role: "Associate Professor, Computer Game Design<br>George Mason University Korea",
+        photo: "images/team/mcgrew.jpg",
+        bio: "John David McGrew is an Associate Professor who teaches 3D modeling, animation, and game art in the Computer Game Design program. He has professional experience as a character animator, 3D generalist, and motion designer. He holds an MFA in Animation from Savannah College of Art and Design."
+      },
+      {
+        type: "faculty",
+        name: "John P. Doran",
+        role: "Senior Instructor, Computer Game Design<br>George Mason University Korea",
+        photo: "images/team/doran.jpg",
+        bio: "John P. Doran is a Senior Instructor and seasoned Technical Game Designer, Software Engineer, and Author. He has over a decade of industry experience, including work at LucasArts, and has authored more than 10 books on game development. His research includes XR in education and game-based digital therapeutics."
+      },
+      {
+        type: "faculty",
+        name: "Joo-mee Paik",
+        role: "Assistant Professor, Computer Game Design<br>George Mason University Korea",
+        photo: "images/team/paik.jpg",
+        bio: "Joo-mee Paik, Ph.D., is an Assistant Professor of Computer Game Design. An artist and educator with over twenty years of experience, she explores the intersections of art, philosophy, and technology, including media art, digital art, interactive art, and VR. She holds a PhD in Art Technology from Sogang University."
+      }
+    ],
     speakers: [
       {
         type: "keynote",
@@ -118,6 +169,7 @@ const content = {
     inquiries: "문의: ksgi@gmu.edu",
     navAbout: "소개",
     navSpeakers: "연사",
+    navTeam: "팀",
     navSchedule: "일정",
     navContact: "문의하기",
     aboutTitle: "컨퍼런스 소개",
@@ -146,13 +198,63 @@ const content = {
     parkingNote: "주차: 자가용 이용 시 주차 확인증 제공",
     partnersTitle: "관련 링크",
     speakersTitle: "연사 소개",
+    teamTitle: "우리 팀",
+    leadershipTitle: "리더십",
+    facultyTitle: "소속 교수진",
     keynoteTitle: "기조연설자",
     featuredTitle: "특별 연사",
+
+    teamMembers: [
+      {
+        type: "leadership",
+        name: "남상엄 교수",
+        role: "한국기능성게임연구소(KSGI) 소장<br>컴퓨터 게임 디자인 프로그램 교수 및 디렉터<br>조지메이슨대학교",
+        photo: "images/team/nam.jpg",
+        bio: "남상엄 교수는 한국기능성게임연구소(KSGI) 소장이자 조지메이슨대학교 컴퓨터 게임 디자인 프로그램 디렉터입니다. 버지니아 기능성게임연구소(VSGI) 공동소장이기도 합니다. 게임 디자인, AI, 신흥 기술, 혁신적 교육의 교차점에서 활동하는 학제간 교육자이자 창의적 실천가입니다."
+      },
+      {
+        type: "leadership",
+        name: "김용은",
+        role: "한국기능성게임연구소(KSGI) 부소장<br>컴퓨터 게임 디자인 강사<br>조지메이슨대학교 한국캠퍼스",
+        photo: "images/team/kim.jpg",
+        bio: "김용은은 한국기능성게임연구소(KSGI) 부소장이자 조지메이슨대학교 한국캠퍼스 컴퓨터 게임 디자인 프로그램 강사입니다. 음악, 사운드 디자인, 인터랙티브 기술의 융합을 전문으로 합니다. Lost Ark 등 수상 경력의 작품과 Queen of Tears, Crash Landing on You 등의 시리즈에 참여한 오디오 디렉터, 작곡가, 지휘자입니다."
+      }
+    ],
+    affiliatedFaculty: [
+      {
+        type: "faculty",
+        name: "제임스 브로데릭",
+        role: "컴퓨터 게임 디자인 조교수<br>조지메이슨대학교 한국캠퍼스",
+        photo: "images/team/broderick.jpg",
+        bio: "제임스 브로데릭은 조지메이슨대학교 한국캠퍼스 컴퓨터 게임 디자인 조교수입니다. 확장현실, 기능성 게임, 게임 디자인, 공간 오디오, 인간-컴퓨터 상호작용을 연구합니다."
+      },
+      {
+        type: "faculty",
+        name: "존 데이비드 맥그루",
+        role: "컴퓨터 게임 디자인 부교수<br>조지메이슨대학교 한국캠퍼스",
+        photo: "images/team/mcgrew.jpg",
+        bio: "존 데이비드 맥그루는 컴퓨터 게임 디자인 프로그램에서 3D 모델링, 애니메이션, 게임 아트를 가르치는 부교수입니다. 캐릭터 애니메이터와 3D 제너럴리스트로서의 전문 경험을 가지고 있습니다."
+      },
+      {
+        type: "faculty",
+        name: "존 P. 도란",
+        role: "컴퓨터 게임 디자인 선임 강사<br>조지메이슨대학교 한국캠퍼스",
+        photo: "images/team/doran.jpg",
+        bio: "존 P. 도란은 선임 강사이자 경험 많은 테크니컬 게임 디자이너, 소프트웨어 엔지니어, 저자입니다. 10년 이상의 업계 경험을 보유하고 있으며 게임 개발 관련 책을 10권 이상 저술했습니다."
+      },
+      {
+        type: "faculty",
+        name: "백주미",
+        role: "컴퓨터 게임 디자인 조교수<br>조지메이슨대학교 한국캠퍼스",
+        photo: "images/team/paik.jpg",
+        bio: "백주미 박사는 컴퓨터 게임 디자인 조교수입니다. 20년 이상의 경험을 가진 예술가이자 교육자로, 미디어 아트, 디지털 아트, 인터랙티브 아트, VR을 탐구합니다."
+      }
+    ],
     speakers: [
       {
         type: "keynote",
         name: "박수용 박사",
-        role: "소프트웨어융합대학 학장<br>서강대학교, 대한민국",
+        role: "컴퓨팅대학 학장<br>서강대학교, 대한민국",
         photo: "images/speakers/park.jpg",
         bio: "박수용 박사는 서강대학교 컴퓨팅대학 학장이자 컴퓨터공학과 교수입니다. 소프트웨어 공학, 블록체인 기술, Web3 분야의 전문가로, 국가IT산업진흥원(NIPA) 원장, 한국소프트웨어공학회 회장 등 학계와 기술 분야에서 주요 리더십 직책을 역임했습니다. 소프트웨어 혁신, 블록체인 기반 시스템, 탈중앙화 기술, 디지털 경제에 대한 연구와 전문적 관심을 가지고 있으며, 한국 기술 교육, 연구, 혁신 발전에 기여해 왔습니다. 2026 KSGI 연례 컨퍼런스에서 AI, Web3, 신흥 디지털 기술이 창의 산업, 디지털 소유권, 사용자 주도 콘텐츠 제작의 미래를 어떻게 재편하는지에 대한 귀중한 관점을 제시합니다."
       },

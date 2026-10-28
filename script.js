@@ -65,6 +65,30 @@ function applyLanguage(lang) {
     `).join('');
   }
 
+  // Update team / people sections
+  const leadershipGrid = document.getElementById('leadershipGrid');
+  const facultyGrid = document.getElementById('facultyGrid');
+  if (leadershipGrid && data.teamMembers) {
+    leadershipGrid.innerHTML = data.teamMembers.map(s => `
+      <div class="speaker-card">
+        <img src="${s.photo}" alt="${s.name}" class="speaker-photo">
+        <h3>${s.name}</h3>
+        <div class="role">${s.role}</div>
+        <p class="bio">${s.bio}</p>
+      </div>
+    `).join('');
+  }
+  if (facultyGrid && data.affiliatedFaculty) {
+    facultyGrid.innerHTML = data.affiliatedFaculty.map(s => `
+      <div class="speaker-card">
+        <img src="${s.photo}" alt="${s.name}" class="speaker-photo">
+        <h3>${s.name}</h3>
+        <div class="role">${s.role}</div>
+        <p class="bio">${s.bio}</p>
+      </div>
+    `).join('');
+  }
+
   // Update lang button text
   const btn = document.getElementById('langToggle');
   if (btn) btn.textContent = data.langToggle;
